@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
-        vector<int>ans;
+        vector<int>answer;
         int count[1002]={0};
 
         sort(nums1.begin(),nums1.end());
@@ -13,7 +13,7 @@ public:
         {
             if((nums1[i] == nums2[j]) && !count[nums1[i]])
             {
-                ans.push_back(nums1[i]);
+                answer.push_back(nums1[i]);
                 count[nums1[i]]++;
                 i++,j++;
             }
@@ -27,7 +27,7 @@ public:
             }
         }
 
-        return ans;
+        return answer;
 
     }
 };
