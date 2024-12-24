@@ -14,3 +14,4 @@ public:
     }
 }
 // THIS IS A WAY TO SOLVE THIS QUESTION BUT EVENTUALLY WILL EXCEED THE TIME LIMIT SINCE IT WORKS IN O(n2) time complexity
+// I did nothing tday just pushing to maintain streak I know its bad but I should get some time off here and there lol.
